@@ -50,23 +50,15 @@ This project empowers:
 
 ## 📂 Folder Structure
 
-VADAR_Project/
-     arduino/
-         vadar_main.ino # Arduino Uno logic
-     esp32-cam/
-         camera_capture_and_upload.ino # ESP32 video upload 
-         config.h # WiFi and Drive settings
-     google_drive_script/
-         Code.gs # Google Apps Script
-     diagrams/
-         CircuitDiagram.png
-Folder	File	Description
-VADAR_Project/	—	Root project directory
-├── arduino/	vadar_main.ino	Arduino Uno logic for accident detection
-├── esp32-cam/	camera_capture_and_upload.ino	ESP32-CAM logic for video capture/upload
-config.h	Wi-Fi credentials and Google Drive URL
-├── google_drive_script/	Code.gs	Google Apps Script for video upload
-├── diagrams/	CircuitDiagram.png	System wiring diagram
+| Folder / File                         | Description                                |
+|--------------------------------------|--------------------------------------------|
+| `VADAR_Project/`                     | Root project directory                     |
+| `arduino/vadar_main.ino`            | Arduino Uno logic for accident detection   |
+| `esp32-cam/camera_capture_and_upload.ino` | ESP32-CAM video capture and upload logic  |
+| `esp32-cam/config.h`                | Wi-Fi credentials and Google Drive URL     |
+| `google_drive_script/Code.gs`       | Google Apps Script for receiving video     |
+| `diagrams/CircuitDiagram.png`       | Circuit wiring diagram of the VADAR system |
+
 
 ## 🚀 Getting Started
 
