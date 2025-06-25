@@ -60,7 +60,13 @@ VADAR_Project/
          Code.gs # Google Apps Script
      diagrams/
          CircuitDiagram.png
-
+Folder	File	Description
+VADAR_Project/	—	Root project directory
+├── arduino/	vadar_main.ino	Arduino Uno logic for accident detection
+├── esp32-cam/	camera_capture_and_upload.ino	ESP32-CAM logic for video capture/upload
+config.h	Wi-Fi credentials and Google Drive URL
+├── google_drive_script/	Code.gs	Google Apps Script for video upload
+├── diagrams/	CircuitDiagram.png	System wiring diagram
 
 ## 🚀 Getting Started
 
