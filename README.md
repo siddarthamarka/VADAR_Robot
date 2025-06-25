@@ -51,17 +51,15 @@ This project empowers:
 ## 📂 Folder Structure
 
 VADAR_Project/
-├── arduino/
-│ └── vadar_main.ino # Arduino Uno logic
-├── esp32-cam/
-│ ├── camera_capture_and_upload.ino # ESP32 video upload logic
-│ └── config.h # WiFi and Drive settings
-├── google_drive_script/
-│ └── Code.gs # Google Apps Script
-├── docs/
-│ ├── CircuitDiagram.png
-│ └── VADAR_UserGuide.pdf
-└── README.md # This file
+     arduino/
+         vadar_main.ino # Arduino Uno logic
+     esp32-cam/
+         camera_capture_and_upload.ino # ESP32 video upload 
+         config.h # WiFi and Drive settings
+     google_drive_script/
+         Code.gs # Google Apps Script
+     diagrams/
+         CircuitDiagram.png
 
 
 ## 🚀 Getting Started
